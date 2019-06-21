@@ -14,11 +14,9 @@
     
     step a)  -go to [jenkins](https://pkg.jenkins.io/redhat-stable/) website
     
-    step b) - in putty command line download jinkins package 
+    step b) - in putty command line download jinkins package
     
-        ```
-        sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
-        ```
+    `sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo`
     
     step c) - and then install jenkins **`sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key`**
     
@@ -32,11 +30,11 @@
     
     step h)  complete
     
-    2) **rpm method **
+    2) **rpm method**
  
     step a) -go to jenkins website  "**https://pkg.jenkins.io/redhat-stable/**" and copy link of required jenkins package 
     
-    step b) paste that link in putty command line with (**wget https://pkg.jenkins.io/redhat-stable/jenkins-2.176.1-1.1.noarch.rpm**)
+    step b) paste that link in putty command line with **`wget https://pkg.jenkins.io/redhat-stable/jenkins-2.176.1-1.1.noarch.rpm`**.
     
     
     
