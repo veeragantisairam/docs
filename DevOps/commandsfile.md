@@ -12,7 +12,7 @@
 -  There is two methods to install jenkins 1). yum method  2). rpm method.
     1) **yum method**
     
-    step a)  -go to genkins website  "**https://pkg.jenkins.io/redhat-stable/**"
+    step a)  -go to genkins [website](https://pkg.jenkins.io/redhat-stable/)
     
     step b) - in putty command line download jinkins package 
         **sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo** 
