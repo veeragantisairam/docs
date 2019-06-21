@@ -25,6 +25,18 @@
     
     step f) verify jenkins authentication code for first time open. (**cat somefilename**).
     
+    step g)  after verification success download some dependencies as shown in website, and  create jenkins username and password .
+    
+    step h)  complete
+    
+    2) **rpm method **
+ 
+    step a) -go to genkins website  "**https://pkg.jenkins.io/redhat-stable/**" and copy link of required jenkins package 
+    
+    step b) paste that link in putty command line with (**wget https://pkg.jenkins.io/redhat-stable/jenkins-2.176.1-1.1.noarch.rpm**)
+    
+    
+    
     
     
     
