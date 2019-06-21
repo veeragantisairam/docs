@@ -11,7 +11,16 @@
 -  inorder to install jenkins, jenkins required **java** softwere. to install java "**yum install java-1.8.0**". java will be installed.
 -  There is two methods to install jenkins 1). yum method  2). rpm method.
     1) **yum method**
-    step i - 
+    
+    step a)  -go to genkins website  "***https://pkg.jenkins.io/redhat-stable/*"
+    
+    step b) - in putty command line download jinkins package  "**sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-                       stable/jenkins.repo **" .
+    
+    step c) - and then install jenkins "**sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key**"
+    
+    
+    
+    
 ```js
 let hello = 'hi';
 ```
