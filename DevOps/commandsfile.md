@@ -17,7 +17,7 @@
     step b) - in putty command line download jinkins package 
         **sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo** 
     
-    step c) - and then install jenkins **sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key**
+    step c) - and then install jenkins **`sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key`**
     
     step d) start genkins **service jenkins status**, **service jenkins start**,**service jenkins stop**.
     
