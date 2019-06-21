@@ -15,13 +15,14 @@
     step a)  -go to [jenkins](https://pkg.jenkins.io/redhat-stable/) website
     
     step b) - in putty command line download jinkins package 
-        ```jenkins
+    
+        ```
         sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
         ```
     
     step c) - and then install jenkins **`sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key`**
     
-    step d) start genkins **service jenkins status**, **service jenkins start**,**service jenkins stop**.
+    step d) start jenkins **service jenkins status**, **service jenkins start**,**service jenkins stop**.
     
     step e) access jenkins in browser (**13.30.8.90:8080**).
     
@@ -33,7 +34,7 @@
     
     2) **rpm method **
  
-    step a) -go to genkins website  "**https://pkg.jenkins.io/redhat-stable/**" and copy link of required jenkins package 
+    step a) -go to jenkins website  "**https://pkg.jenkins.io/redhat-stable/**" and copy link of required jenkins package 
     
     step b) paste that link in putty command line with (**wget https://pkg.jenkins.io/redhat-stable/jenkins-2.176.1-1.1.noarch.rpm**)
     
